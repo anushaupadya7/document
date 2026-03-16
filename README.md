@@ -1,3 +1,17 @@
 # document
 
 https://EducationPractice@dev.azure.com/EducationPractice/POCs/_git/supervisor_agent
+
+{
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-postgres-server"],
+      "env": {
+        "PG_HOST": "your_host",
+        "PG_PORT": "5432",
+        "PG_USER": "your_user",
+        "PG_PASSWORD": "your_password",
+        "PG_DATABASE": "your_database"
+      }
+    }
+  }
